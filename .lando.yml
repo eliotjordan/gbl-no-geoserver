@@ -1,0 +1,26 @@
+name: nogeoserver
+services:
+  nogeoserver_test_solr:
+    type: solr:8.8
+    portforward: true
+    core: nogeoserver-core-test
+    config:
+      dir: "solr/conf"
+  nogeoserver_development_solr:
+    type: solr:8.8
+    portforward: true
+    core: nogeoserver-core-dev
+    config:
+      dir: "solr/conf"
+  nogeoserver_database:
+    type: postgres:14
+    portforward: true
+    creds:
+      database: geoblacklight_local_db
+      user: geoblacklight_user
+      password: geoblacklight_password
+proxy:
+  nogeoserver_test_solr:
+    - nogeoserver.test.solr.lndo.site:8983
+  nogeoserver_development_solr:
+    - nogeoserver.dev.solr.lndo.site:8983
