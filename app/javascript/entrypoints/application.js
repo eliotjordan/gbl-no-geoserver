@@ -6,18 +6,18 @@
 // import {PMTilesVectorSource} from 'ol-pmtiles';
 // import { useGeographic } from 'ol/proj';
 // import {Style, Stroke, Fill} from 'ol/style';
-
+import { PMTilesVectorSource } from '@/components/pmtiles-layer'
 
 document.addEventListener('DOMContentLoaded', () => {
   const element = document.getElementById('ol-map')
   const data = element.dataset
 
   if(data.protocol == 'Pmtiles') {
-    const bbox = new ol.format.GeoJSON().readFeatures(data.mapGeom)[0].getGeometry().getExtent()
+    const extent = new ol.format.GeoJSON().readFeatures(data.mapGeom)[0].getGeometry().getExtent()
     const baseLayer = new ol.layer.Tile({ source: new ol.source.OSM() });
     const vectorLayer = new ol.layer.VectorTile({
         declutter: true,
-        source: new olpmtiles.PMTilesVectorSource({
+        source: new PMTilesVectorSource({
           // url: "https://pul-tile-images.s3.amazonaws.com/Dept_of_Public_Works_Roadwork_Projects.pmtiles",
           // url: "https://pul-tile-images.s3.amazonaws.com/pmtiles/parcels.pmtiles",
           url: data.url
@@ -38,6 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
         layers: [baseLayer, vectorLayer],
         target: 'ol-map'
       });
-      map.getView().fit(bbox, map.getSize());
+      map.getView().fit(extent, map.getSize());
   }
 })
