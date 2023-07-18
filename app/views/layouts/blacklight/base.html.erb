@@ -12,9 +12,6 @@
     <%= opensearch_description_tag application_name, opensearch_catalog_url(format: 'xml') %>
     <%= favicon_link_tag %>
     <%= stylesheet_link_tag "application", media: "all", "data-turbo-track": "reload"  %>
-    <script src="https://cdn.jsdelivr.net/npm/ol@v7.4.0/dist/ol.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.3.0/ol.css"></link>
-    <script src="https://unpkg.com/ol-pmtiles@0.1.0/dist/olpmtiles.js"></script>
     <%= vite_client_tag %>
     <%= vite_javascript_tag 'application' %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
