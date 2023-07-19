@@ -9,10 +9,10 @@ import {Style, Stroke, Fill} from 'ol/style';
 import { PMTilesVectorSource } from '@/components/pmtiles-layer'
 
 document.addEventListener('DOMContentLoaded', () => {
-  const element = document.getElementById('xxmap')
-  if (!element) return
+  const element = document.getElementById('ol-map')
+  if (!element) return false
   const data = element.dataset
-  if (data.protocol == 'Pmtiles') {
+  if (data && data.protocol == 'Pmtiles') {
     const geom = data.mapGeom
     const extent = new GeoJSON().readFeatures(geom)[0].getGeometry().getExtent()
     const baseLayer = new TileLayer({ source: new OSM() });
@@ -37,10 +37,12 @@ document.addEventListener('DOMContentLoaded', () => {
       useGeographic();
       const map = new Map({
         layers: [baseLayer, vectorLayer],
-        target: 'map'
+        target: 'ol-map'
       });
       map.getView().fit(extent, map.getSize());
   } else if (data.protocol == 'Cog') {
 
   }
+
 })
+
