@@ -39,7 +39,7 @@
   "dct_accessRights_s": "Public",
   "dct_format_s": "Shapefile",
   "gbl_wxsIdentifier_s": "sde:GISPORTAL.GISOWNER01.CAMBRIDGEGRID100_04",
-  "dct_references_s": "{\"http://www.opengis.net/cat/csw/csdgm\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.tufts/master/165/242/110/132/fgdc.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"http://geoserver01.uit.tufts.edu/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"http://geoserver01.uit.tufts.edu/wms\"}",
+  "dct_references_s": "{\"http://www.opengis.net/cat/csw/csdgm\":\"https://raw.githubusercontent.com/OpenGeoMetadata/edu.tufts/master/165/242/110/132/fgdc.xml\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"http://geoserver01.uit.tufts.edu/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"http://geoserver01.uit.tufts.edu/wms\",\"https://github.com/protomaps/PMTiles\":\"https://pub-e807dd878e5f49c9890c0f65c3962cf9.r2.dev/tufts-cambridgegrid100-04.pmtiles\"}",
   "id": "tufts-cambridgegrid100-04",
   "dct_identifier_sm": [
     "urn:geodata.tufts.edu:Tufts.CambridgeGrid100_04"
