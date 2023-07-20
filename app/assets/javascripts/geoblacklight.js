@@ -6,5 +6,6 @@
 //= require geoblacklight/modules
 //= require geoblacklight/downloaders
 //= require viewers/pmtiles
+//= require viewers/cog
 //= require leaflet-iiif
 //= require esri-leaflet
