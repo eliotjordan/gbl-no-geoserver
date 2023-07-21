@@ -37,7 +37,7 @@
   "dct_accessRights_s": "Public",
   "dct_format_s": "Shapefile",
   "gbl_wxsIdentifier_s": "mit:SDE_DATA_US_MA_E25ZCTA5DCT_2000",
-  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geodata.mit.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geodata.mit.edu/geoserver/wms\",\"https://github.com/protomaps/PMTiles\":\"https://pub-e807dd878e5f49c9890c0f65c3962cf9.r2.dev/US_MA_E25ZCTA5DCT_2000.pmtiles\"}",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"https://geodata.mit.edu/geoserver/wfs\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://geodata.mit.edu/geoserver/wms\",\"https://github.com/protomaps/PMTiles\":\"https://test-data.cloudgbl.org/US_MA_E25ZCTA5DCT_2000.pmtiles\"}",
   "id": "mit-f6rqs4ucovjk2",
   "gbl_mdModified_dt": "2021-06-11T18:42:45Z",
   "gbl_mdVersion_s": "Aardvark"

@@ -27,7 +27,7 @@
     ],
     "gbl_mdModified_dt": "2022-02-04T22:13:37Z",
     "gbl_wxsIdentifier_s": "lb2016",
-    "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\",\"https://github.com/cogeotiff/cog-spec\":\"https://pub-e807dd878e5f49c9890c0f65c3962cf9.r2.dev/35_4_op_2016-cog.tif\"}",
+    "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://maps.wien.gv.at/wmts/1.0.0/WMTSCapabilities.xml\",\"https://github.com/cogeotiff/cog-spec\":\"https://test-data.cloudgbl.org/35_4_op_2016-cog3.tif\"}",
     "layer_geom_type_s": "Raster",
     "gbl_resourceClass_sm": [
         "Imagery"
