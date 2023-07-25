@@ -9,6 +9,7 @@ import {Style, Stroke, Fill} from 'ol/style';
 import GeoTIFF from 'ol/source/GeoTIFF.js';
 import WebGLTileLayer from 'ol/layer/WebGLTile.js';
 import { PMTilesVectorSource } from '@/components/pmtiles-layer'
+import {FullScreen, defaults as defaultControls} from 'ol/control.js'
 
 document.addEventListener('DOMContentLoaded', () => {
   const element = document.getElementById('ol-map')
@@ -38,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       useGeographic();
       const map = new Map({
+        controls: defaultControls().extend([new FullScreen()]),
         layers: [baseLayer, vectorLayer],
         target: 'ol-map'
       });
@@ -49,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       source.getView().then((view) => {
         const map = new Map({
+          controls: defaultControls().extend([new FullScreen()]),
           target: 'ol-map',
           layers: [
             baseLayer,
