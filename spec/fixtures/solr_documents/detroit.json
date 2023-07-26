@@ -1,0 +1,69 @@
+{
+    "id": "9ca25373d4f747be85850344186dda3c_0",
+    "gbl_mdVersion_s": "Aardvark",
+    "dct_title_s": "Parcels [Michigan--Detroit]",
+    "dct_alternative_sm": [
+        "Parcels"
+    ],
+    "dct_description_sm": [
+        "The Parcels data set from the City of Detroit Office of the Assessor is updated daily with land parcel data for all properties within the City of Detroit. Records in this data set describe the assessed values, rights, ownership interests, most recent sales data, physical descriptions, and addresses associated with each parcel. Parcels are distinguished from lots or plots of land in that property ownership rights are the fundamental units of division between parcels. The graphic depiction of land parcels represents real property ownership within the City for both privately and publicly owned properties."
+    ],
+    "dct_language_sm": [
+        "eng"
+    ],
+    "b1g_language_sm": [
+        "English"
+    ],
+    "dct_creator_sm": [
+        "City of Detroit"
+    ],
+    "gbl_resourceClass_sm": [
+        "Datasets",
+        "Web services"
+    ],
+    "dcat_keyword_sm": [
+        "parcels",
+        "assessor",
+        "CartegraphBase",
+        "property"
+    ],
+    "dct_issued_s": "2021-09-15",
+    "dct_temporal_sm": [
+        "Continually updated resource"
+    ],
+    "dct_spatial_sm": [
+        "Michigan--Detroit",
+        "Michigan"
+    ],
+    "locn_geometry": "POLYGON((-83.29 42.45, -82.91 42.45, -82.91 42.26, -83.29 42.26, -83.29 42.45))",
+    "dcat_bbox": "ENVELOPE(-83.29,-82.91,42.45,42.26)",
+    "dcat_centroid": "42.355000000000004,-83.1",
+    "pcdm_memberOf_sm": [
+        "ba5cc745-21c5-4ae9-954b-72dd8db6815a"
+    ],
+    "gbl_resourceType_sm": [
+        "Vector data"
+    ],
+    "dct_format_s": "Shapefile",
+    "gbl_georeferenced_b": false,
+    "dct_references_s": "{\"http://schema.org/url\":\"https://data.detroitmi.gov/maps/detroitmi::parcels-2\",\"http://schema.org/downloadUrl\":\"https://data.detroitmi.gov/datasets/detroitmi::parcels-2.zip\",\"urn:x-esri:serviceType:ArcGIS#FeatureLayer\":\"https://services2.arcgis.com/qvkbeam7Wirps6zC/arcgis/rest/services/Parcels_Current/FeatureServer/0\",\"https://github.com/protomaps/PMTiles\":\"https://test-data.cloudgbl.org/detroit-parcels.pmtiles\"}",
+    "b1g_access_s": "{}",
+    "dct_identifier_sm": [
+        "https://hub.arcgis.com/datasets/9ca25373d4f747be85850344186dda3c"
+    ],
+    "geomg_id_s": "9ca25373d4f747be85850344186dda3c_0",
+    "schema_provider_s": "Detroit Open Data",
+    "b1g_code_s": "07c-01",
+    "dct_isPartOf_sm": [
+        "07c-01"
+    ],
+    "b1g_dct_accrualMethod_s": "ArcGIS Hub",
+    "b1g_dateAccessioned_sm": [
+        "2023-07-20"
+    ],
+    "b1g_publication_state_s": "published",
+    "dct_accessRights_s": "Public",
+    "gbl_suppressed_b": false,
+    "b1g_child_record_b": false,
+    "gbl_mdModified_dt": "2023-07-20T18:43:55Z",
+}
